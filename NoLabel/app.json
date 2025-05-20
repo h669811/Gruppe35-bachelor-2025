@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CanEatMock",
+    "slug": "mock",
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow CanEatMock to access your camera"
+        }
+      ],
+      "expo-image-picker"
+    ],
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.caneatmock.ocrscanner"
+    },
+    "ios": {
+      "bundleIdentifier": "com.caneatmock.ocrscanner",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "Appen trenger tilgang til kamera for å ta bilde av matvarer."
+      }
+    },
+    "jsEngine": "hermes",
+    "extra": {
+      "eas": {
+        "projectId": "921b5048-71d3-4367-ae3d-cbc5d8506db4"
+      }
+    },
+    "owner": "odapod"
+  }
+}
