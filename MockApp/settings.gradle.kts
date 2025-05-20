@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NoLabel"
+rootProject.name = "MockApp"
 include(":app")
  
